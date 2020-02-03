@@ -2,11 +2,11 @@ public class People {
     private String name;
     private String lastName;
     private Address address;
-    private String officeAreaCode;
-    private String officeNumber;
+
+    private TelephoneNumber tel;
 
     public String getTelephoneNumber() {
-        return "The telephone number is :" + this.officeAreaCode + this.officeNumber;
+        return tel.getTelephoneNumber();
     }
 
     public String getName() {
