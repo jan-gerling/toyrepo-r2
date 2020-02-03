@@ -2,6 +2,12 @@ public class People {
     private String name;
     private String lastName;
     private Address address;
+    private String officeAreaCode;
+    private String officeNumber;
+
+    public String getTelephoneNumber() {
+        return "The telephone number is :" + this.officeAreaCode + this.officeNumber;
+    }
 
     public String getName() {
         return name;
