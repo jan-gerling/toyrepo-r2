@@ -3,17 +3,17 @@ public class People {
     private String lastName;
     private Address address;
 
-    private TelephoneNumber tel;
+    private TelephoneNumber telephone;
 
     public People(String name, String lastName, Address address, TelephoneNumber tel) {
         this.name = name;
         this.lastName = lastName;
         this.address = address;
-        this.tel = tel;
+        this.telephone = tel;
     }
 
     public String getTelephoneNumber() {
-        return tel.getTelephoneNumber();
+        return telephone.getTelephoneNumber();
     }
 
     public String getName() {
