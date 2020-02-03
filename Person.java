@@ -1,13 +1,13 @@
 public class People {
     private String name;
-    private String lastName;
+    private String sobrenome;
     private Address address;
 
     private TelephoneNumber telephone;
 
     public People(String name, String lastName, Address address, TelephoneNumber tel) {
         this.name = name;
-        this.lastName = lastName;
+        this.sobrenome = lastName;
         this.address = address;
         this.telephone = tel;
     }
@@ -25,11 +25,11 @@ public class People {
     }
 
     public String getLastName() {
-        return lastName;
+        return sobrenome;
     }
 
     public void setLastName(String lastName) {
-        this.lastName = lastName;
+        this.sobrenome = lastName;
     }
 
     public Address getAddress() {
