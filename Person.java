@@ -1,7 +1,7 @@
 public class People {
     private String name;
     private String lastName;
-    private String address;
+    private Address address;
 
     public String getName() {
         return name;
@@ -19,11 +19,11 @@ public class People {
         this.lastName = lastName;
     }
 
-    public String getAddress() {
+    public Address getAddress() {
         return address;
     }
 
-    public void setAddress(String address) {
+    public void setAddress(Address address) {
         this.address = address;
     }
 }
