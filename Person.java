@@ -5,6 +5,13 @@ public class People {
 
     private TelephoneNumber tel;
 
+    public People(String name, String lastName, Address address, TelephoneNumber tel) {
+        this.name = name;
+        this.lastName = lastName;
+        this.address = address;
+        this.tel = tel;
+    }
+
     public String getTelephoneNumber() {
         return tel.getTelephoneNumber();
     }
