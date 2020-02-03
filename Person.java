@@ -12,7 +12,7 @@ public class People {
         this.telephone = tel;
     }
 
-    public String getTelephoneNumber() {
+    public String getTelephoneNumber(String areaCode) {
         return telephone.getTelephoneNumber();
     }
 
